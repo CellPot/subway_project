@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45925c166df241309d91ecdbe9efa963, type: 3}
+  m_Name: StationsData
+  m_EditorClassIdentifier: SubwayLines:SubwayLines:StationsData
+  stations:
+  - id: 0
+    name: A
+  - id: 1
+    name: B
+  - id: 2
+    name: C
+  - id: 3
+    name: D
+  - id: 4
+    name: E
+  - id: 5
+    name: F
+  - id: 6
+    name: G
+  - id: 7
+    name: H
+  - id: 8
+    name: J
+  - id: 9
+    name: O
+  - id: 10
+    name: K
+  - id: 11
+    name: L
+  - id: 12
+    name: M
+  - id: 13
+    name: N

@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26de556eba1d40809e579bed41dae2c5, type: 3}
+  m_Name: SubwaySystemData
+  m_EditorClassIdentifier: 
+  subwaySystem:
+    stationsCount: 14
+    lines:
+    - name: Red
+      segments:
+      - point1: 0
+        point2: 1
+      - point1: 1
+        point2: 2
+      - point1: 2
+        point2: 3
+      - point1: 3
+        point2: 4
+    - name: Black
+      segments:
+      - point1: 1
+        point2: 7
+      - point1: 7
+        point2: 8
+      - point1: 8
+        point2: 5
+      - point1: 5
+        point2: 6
+    - name: Blue
+      segments:
+      - point1: 9
+        point2: 8
+      - point1: 8
+        point2: 3
+      - point1: 3
+        point2: 11
+      - point1: 11
+        point2: 13
+    - name: Green
+      segments:
+      - point1: 2
+        point2: 8
+      - point1: 8
+        point2: 4
+      - point1: 4
+        point2: 12
+      - point1: 12
+        point2: 11
+      - point1: 11
+        point2: 10
+      - point1: 10
+        point2: 2
